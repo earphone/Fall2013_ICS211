@@ -1,0 +1,12 @@
+/*
+ * Assignment:	Homework 3
+ * File:	Analysis
+ * Author:	Brandon Higashi
+ * Date:	September 17, 2013
+ * Mod:		September 17, 2013
+ */
+
+	For ArraySearch.find() the big-O is O(n) because is searches n elements
+linearly throughout the array for an element. For ArraySearch.first_duplicate() 
+the big-O is O(n^2) because is compares each element of the array with all of 
+the other elements (n elements * n times).

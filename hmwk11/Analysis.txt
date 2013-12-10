@@ -1,0 +1,64 @@
+/*
+ * Assignment: 	Homework 11
+ * File:	Analysis
+ * Author:	Brandon Higashi
+ */
+
+	When the hash table size s is much smaller (at least 10 times less) than
+the number n of elements added, the time it takes to complete decreases as s 
+also decreases.
+
+	Stressing puts
+	stressPuts 99171 items 378773000 ns capacity 9900
+	Stressing gets
+	stressGets 99171 items 353158000 ns capacity 9900
+
+	Stressing puts
+	stressPuts 99171 items 371482000 ns capacity 9900
+	Stressing gets
+	stressGets 99171 items 355066000 ns capacity 9900
+
+	Stressing puts
+	stressPuts 99171 items 362759000 ns capacity 9900
+	Stressing gets
+	stressGets 99171 items 346958000 ns capacity 9900
+	
+	Stressing puts
+	stressPuts 99171 items 330612000 ns capacity 9000
+	Stressing gets
+	stressGets 99171 items 317590000 ns capacity 9000
+
+	Stressing puts
+	stressPuts 99171 items 304519000 ns capacity 8000
+	Stressing gets
+	stressGets 99171 items 286550000 ns capacity 8000
+	
+	Stressing puts
+	stressPuts 99171 items 60760000 ns capacity 1000
+	Stressing gets
+	stressGets 99171 items 45705000 ns capacity 1000
+
+
+	When the hash table size s is much greater (at least 10 times more) than
+the number n of elements added, the time it takes to complete increases greatly
+as s also increases.
+
+	Stressing puts
+	stressPuts 99171 items 189771268000 ns capacity 995000
+	Stressing gets
+	stressGets 99171 items 188888351000 ns capacity 995000
+
+	Stressing puts
+	stressPuts 99171 items 212505882000 ns capacity 1000000
+	Stressing gets
+	stressGets 99171 items 206978029000 ns capacity 1000000
+
+	Stressing puts
+	stressPuts 99171 items 234019518000 ns capacity 1250000
+	Stressing gets
+	stressGets 99171 items 233089630000 ns capacity 1250000
+
+	Stressing puts
+	stressPuts 99171 items 328328850000 ns capacity 1500000
+	Stressing gets
+	stressGets 99171 items 292420871000 ns capacity 1500000
